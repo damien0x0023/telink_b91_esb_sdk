@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.2039458115">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.2039458115" moduleId="org.eclipse.cdt.core.settings" name="ESB_PTX">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ConfigName}" buildArtefactType="nds.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=nds.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.2039458115" name="ESB_PTX" parent="config.nds.base">
+					<folderInfo id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.2039458115." name="/" resourcePath="">
+						<toolChain id="nds.nds32le-elf-mculib-v5f.base.114393936" name="nds32le-elf-mculib-v5f" superClass="nds.nds32le-elf-mculib-v5f.base">
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU.317018838" name="CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU.2088520183" name="LIST_CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE.1905375988" name="CORE" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH.707118008" name="ARCH" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS.1367578487" name="ISA_REDUCE_REGS" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET.1790586757" name="TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN.62606132" name="ENDIAN" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT.723104254" name="LIB_C_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT.1981623656" name="LIB_CPP_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET.10188851" name="RSE_TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET" value="rse://LOCALHOST/~target/ADP-AE350-D25F-EAGLE-0106" valueType="string"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT.147288412" name="RSE_CONNECT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT" value="ICE" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" id="target.nds.platform.base.v5.1002584957" name="Debug Platform" osList="all" superClass="target.nds.platform.base.v5"/>
+							<builder arguments="-j${NUMBER_OF_PROCESSORS}" buildPath="${workspace_loc:/Eagle_Driver_Demo}/Base_Test_DEMO" command="make" id="target.nds.builder.base.v5.1651152388" keepEnvironmentInBuildfile="false" name="Andes Make Builder" superClass="target.nds.builder.base.v5"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.archiver.base.320241700" name="Andes Archiver" superClass="tool.nds32le-elf-mculib-v5f.archiver.base"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.compiler.base.1788982111" name="Andes C++ Compiler" superClass="tool.nds32le-elf-mculib-v5f.cpp.compiler.base">
+								<option id="nds.cpp.compiler.option.debugging.level.916923778" name="Debug Level" superClass="nds.cpp.compiler.option.debugging.level" value="nds.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="nds.cpp.compiler.option.include.paths.1052781062" name="Include paths (-I)" superClass="nds.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/bsp/ae350}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/bsp/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/demo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/bsp}&quot;"/>
+								</option>
+								<option id="nds.cpp.compiler.option.optimization.removesections.function.980590648" name="Remove unused function sections (-ffunction-sections)" superClass="nds.cpp.compiler.option.optimization.removesections.function" value="true" valueType="boolean"/>
+								<option id="nds.cpp.compiler.option.optimization.removesections.data.1911860908" name="Remove unused data sections (-fdata-sections)" superClass="nds.cpp.compiler.option.optimization.removesections.data" value="true" valueType="boolean"/>
+								<option id="nds.cpp.compiler.option.other.other.954232628" name="Other flags" superClass="nds.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing " valueType="string"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.linker.base.1827032543" name="Andes C++ Linker" superClass="tool.nds32le-elf-mculib-v5f.cpp.linker.base">
+								<option defaultValue="-O0" id="nds.cpp.link.option.optimization.level.1073159097" name="Optimization Level" superClass="nds.cpp.link.option.optimization.level" value="-Og" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v5f.cpp.link.option.noshared.base.97672948" name="No shared libraries (-static)" superClass="nds32le-elf-mculib-v5f.cpp.link.option.noshared.base" valueType="boolean"/>
+								<option id="nds.cpp.link.option.nostart.211330004" name="Do not use standard start files (-nostartfiles)" superClass="nds.cpp.link.option.nostart" value="true" valueType="boolean"/>
+								<option id="nds.cpp.link.option.libs.563874491" name="Libraries (-l)" superClass="nds.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="stdc++"/>
+								</option>
+								<option id="nds.cpp.linker.option.cmodel.2137194611" name="Code Model" superClass="nds.cpp.linker.option.cmodel" value="-mcmodel=medium" valueType="string"/>
+								<option id="nds.cpp.link.option.removesections.1463190969" name="Remove unused sections (-ffunction-sections or -fdata-sections)" superClass="nds.cpp.link.option.removesections" value="true" valueType="boolean"/>
+								<option id="nds.cpp.link.option.virtualhosting.1742740729" name="Virtual Hosting (-mvh)" superClass="nds.cpp.link.option.virtualhosting" value="false" valueType="boolean"/>
+							</tool>
+							<tool command="$(CROSS_COMPILE)gcc" id="tool.nds32le-elf-mculib-v5f.c.compiler.base.1300419626" name="Andes C Compiler" superClass="tool.nds32le-elf-mculib-v5f.c.compiler.base">
+								<option id="nds.c.compiler.option.debugging.level.1862371375" name="Debug Level" superClass="nds.c.compiler.option.debugging.level" value="nds.c.debugging.level.max" valueType="enumerated"/>
+								<option id="nds32le-elf-mculib-v5f.c.compiler.option.optimization.level.base.1993572708" name="Optimization Level" superClass="nds32le-elf-mculib-v5f.c.compiler.option.optimization.level.base" value="nds.c.optimization.level.more" valueType="enumerated"/>
+								<option id="nds.c.compiler.option.optimization.removesections.function.266284373" name="Remove unused function sections (-ffunction-sections)" superClass="nds.c.compiler.option.optimization.removesections.function" value="true" valueType="boolean"/>
+								<option id="nds.c.compiler.option.optimization.removesections.data.198810944" name="Remove unused data sections (-fdata-sections)" superClass="nds.c.compiler.option.optimization.removesections.data" value="true" valueType="boolean"/>
+								<option id="nds.c.compiler.option.misc.other.744002703" name="Other flags" superClass="nds.c.compiler.option.misc.other" value="-mext-dsp -mabi=ilp32f  -c -fmessage-length=0  -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -Wno-nonnull-compare -Wall -Wextra -Wshadow  -Werror -std=c99 -Wno-gnu-zero-variadic-macro-arguments" valueType="string"/>
+								<option id="nds.c.compiler.option.optimization.lto.1238725533" name="Link Time Optimization (-flto)" superClass="nds.c.compiler.option.optimization.lto" value="true" valueType="boolean"/>
+								<option id="nds.c.compiler.option.cmodel.809300258" name="Code Model" superClass="nds.c.compiler.option.cmodel" value="nds.c.compiler.option.cmodel.medium" valueType="enumerated"/>
+								<option id="nds.c.compiler.option.preprocessor.def.symbols.1826003969" name="Defined symbols (-D)" superClass="nds.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="MCU_STARTUP_FLASH=1"/>
+									<listOptionValue builtIn="false" value="MCU_CORE_B91=1"/>
+								</option>
+								<option id="nds.c.compiler.option.optimization.flags.1543078388" name="Other optimization flags" superClass="nds.c.compiler.option.optimization.flags" value="-fpack-struct -fshort-enums -fno-jump-tables" valueType="string"/>
+								<option id="nds.c.compiler.option.include.paths.20354357" name="Include paths (-I)" superClass="nds.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/esb}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common/flash}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common/calibration}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common/common}&quot;"/>
+								</option>
+								<option id="nds.c.compiler.option.misc.use-cc.toolchain.636747008" name="Compiler to use" superClass="nds.c.compiler.option.misc.use-cc.toolchain" value="nds.c.compiler.option.misc.use-cc.gcc" valueType="enumerated"/>
+								<inputType id="tool.nds.c.compiler.input.2009898945" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool command="$(CROSS_COMPILE)gcc" id="tool.nds32le-elf-mculib-v5f.c.linker.base.1950543878" name="Andes C Linker" superClass="tool.nds32le-elf-mculib-v5f.c.linker.base">
+								<option defaultValue="-O0" id="nds.c.link.option.optimization.level.609416094" name="Optimization Level" superClass="nds.c.link.option.optimization.level" value="-O2" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v5f.c.link.option.noshared.base.2044743405" name="No shared libraries (-static)" superClass="nds32le-elf-mculib-v5f.c.link.option.noshared.base" valueType="boolean"/>
+								<option id="nds.c.link.option.nostart.36380044" name="Do not use standard start files (-nostartfiles)" superClass="nds.c.link.option.nostart" value="true" valueType="boolean"/>
+								<option defaultValue="" id="nds.c.link.option.ldscript.1584245145" name="Linker Script (-T)" superClass="nds.c.link.option.ldscript" value="../link/flash_boot.link" valueType="string"/>
+								<option id="nds.c.link.option.removesections.431386510" name="Remove unused sections (-ffunction-sections or -fdata-sections)" superClass="nds.c.link.option.removesections" value="true" valueType="boolean"/>
+								<option id="nds.c.link.option.virtualhosting.561336644" name="Virtual Hosting (-mvh)" superClass="nds.c.link.option.virtualhosting" value="false" valueType="boolean"/>
+								<option id="nds.c.link.option.ldflags.790950951" name="Linker flags" superClass="nds.c.link.option.ldflags" value=" " valueType="string"/>
+								<option id="nds.c.linker.option.cmodel.1611897736" name="Code Model" superClass="nds.c.linker.option.cmodel" value="-mcmodel=medium" valueType="string"/>
+								<option id="nds.c.link.option.LTO.1954543207" name="Link Time Optimization (-flto)" superClass="nds.c.link.option.LTO" value="true" valueType="boolean"/>
+								<option id="nds.c.link.option.other.duplacitecompiler.730054590" name="DuplaciteComplierOption" superClass="nds.c.link.option.other.duplacitecompiler" value="-fpack-struct -fshort-enums -fno-jump-tables -g3 -mcpu=d25f -ffunction-sections -fdata-sections -mext-dsp -mabi=ilp32f -fmessage-length=0 -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -Wno-gnu-zero-variadic-macro-arguments " valueType="string"/>
+								<option id="nds.c.link.option.libs.1923344078" name="Libraries (-l)" superClass="nds.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="driver"/>
+									<listOptionValue builtIn="false" value="esb"/>
+									<listOptionValue builtIn="false" value="axon_driver_lib"/>
+								</option>
+								<option id="nds.c.link.option.paths.135394876" name="Library search path (-L)" superClass="nds.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/drivers/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/esb}&quot;"/>
+								</option>
+								<inputType id="tool.nds.c.linker.input.128259696" superClass="tool.nds.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.assembler.base.1920986475" name="Andes Assembler" superClass="tool.nds32le-elf-mculib-v5f.assembler.base">
+								<option defaultValue="-g" id="nds.both.asm.option.flags.771094143" name="Assembler flags" superClass="nds.both.asm.option.flags" valueType="string"/>
+								<option id="nds.both.asm.option.include.paths.146866167" name="Include paths (-I)" superClass="nds.both.asm.option.include.paths"/>
+								<inputType id="tool.nds.assembler.input.1259592566" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.nm.base.382671348" name="NM (symbol listing)" superClass="tool.nds32le-elf-mculib-v5f.nm.base"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.readelf.base.375061092" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-mculib-v5f.readelf.base"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.objdump.base.1017478854" name="Objdump (disassembly)" superClass="tool.nds32le-elf-mculib-v5f.objdump.base">
+								<option id="nds.objdump.option.disable.1370899762" name="Disable. (Do not auto-generate output file.)" superClass="nds.objdump.option.disable" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.objcopy.base.1220300693" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-mculib-v5f.objcopy.base">
+								<option id="nds.objcopy.option.disable.776410856" name="Disable. (Do not auto-generate output file.)" superClass="nds.objcopy.option.disable" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.size.base.1930733216" name="Size (section size listing)" superClass="tool.nds32le-elf-mculib-v5f.size.base"/>
+							<tool command="$(ANDESIGHT_ROOT)/utils/nds_ldsag --version=v5" id="tool.nds32le-elf-mculib-v5f.ldsag.base.2103526503" name="LdSaG Tool" superClass="tool.nds32le-elf-mculib-v5f.ldsag.base">
+								<option defaultValue="$(ANDESIGHT_ROOT)/utils/nds32_template_v5.txt" id="nds.ldsag.option.sagtemplate.1430120650" name="Linker script template" superClass="nds.ldsag.option.sagtemplate" value="../boot.link" valueType="string"/>
+								<option id="nds.ldsag.option.sagscript.748288682" name="SaG file" superClass="nds.ldsag.option.sagscript" value="../ae350-xip.sag" valueType="string"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.2039458115.tools" name="/" resourcePath="tools">
+						<toolChain id="nds.nds32le-elf-mculib-v5f.base.1178623445" name="nds32le-elf-mculib-v5f" superClass="nds.nds32le-elf-mculib-v5f.base" unusedChildren="">
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU.1682401090.356743481.169582775" name="CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU.1682401090"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU.297056722.292231812.658679531" name="LIST_CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU.297056722"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE.271198914.1716872884.619328409" name="CORE" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE.271198914"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH.1043421472.1972990180.432342969" name="ARCH" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH.1043421472"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS.631489959.1186178979.32247396" name="ISA_REDUCE_REGS" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS.631489959"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET.1940747853.643489039.216244134" name="TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET.1940747853"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN.2119767841.41383845.1438055264" name="ENDIAN" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN.2119767841"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT.189159750.2144703268.1087909905" name="LIB_C_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT.189159750"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT.1477121159.1688408564.75566472" name="LIB_CPP_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT.1477121159"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET.876545470.93348153.1867457160" name="RSE_TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET.876545470"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT.1575858312.499881965.1998585" name="RSE_CONNECT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT.1575858312"/>
+							<targetPlatform archList="all" binaryParser="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" id="target.nds.platform.base.v5.1380491668" name="Debug Platform" osList="all" superClass="target.nds.platform.base.v5"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.archiver.base.1851900242" name="Andes Archiver" superClass="tool.nds32le-elf-mculib-v5f.archiver.base.320241700"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.compiler.base.939355882" name="Andes C++ Compiler" superClass="tool.nds32le-elf-mculib-v5f.cpp.compiler.base.1788982111"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.linker.base.1862651457" name="Andes C++ Linker" superClass="tool.nds32le-elf-mculib-v5f.cpp.linker.base.1827032543"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.c.compiler.base.2138601812" name="Andes C Compiler" superClass="tool.nds32le-elf-mculib-v5f.c.compiler.base.1300419626">
+								<inputType id="tool.nds.c.compiler.input.795357874" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.c.linker.base.749808343" name="Andes C Linker" superClass="tool.nds32le-elf-mculib-v5f.c.linker.base.1950543878"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.assembler.base.1178963898" name="Andes Assembler" superClass="tool.nds32le-elf-mculib-v5f.assembler.base.1920986475">
+								<inputType id="tool.nds.assembler.input.2091081413" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.nm.base.50835694" name="NM (symbol listing)" superClass="tool.nds32le-elf-mculib-v5f.nm.base.382671348"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.readelf.base.546403787" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-mculib-v5f.readelf.base.375061092"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.objdump.base.1866748526" name="Objdump (disassembly)" superClass="tool.nds32le-elf-mculib-v5f.objdump.base.1017478854"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.objcopy.base.1561484656" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-mculib-v5f.objcopy.base.1220300693"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.size.base.1030878219" name="Size (section size listing)" superClass="tool.nds32le-elf-mculib-v5f.size.base.1930733216"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.ldsag.base.1710467032" name="LdSaG Tool" superClass="tool.nds32le-elf-mculib-v5f.ldsag.base.2103526503"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="vendor/esb_prx|src/boot.c|vendor/PKE_Demo|vendor/SPI_Demo|vendor/TRNG_Demo|vendor/AUDIO_Demo|vendor/Flash_Demo|vendor/ESB_PRX|vendor/Swire_Demo|vendor/QDEC_Demo|vendor/UART0_DEMO|vendor/B91_Debug_Demo|vendor/B91_HSPI_Demo|vendor/ADC_Demo|vendor/Coremark_Demo|vendor/UART_DEMO|vendor/ALG_REG_Demo|vendor/HSPI_Demo|vendor/UART_Demo|vendor/s7816_Demo|vendor/AES_Demo|vendor/DUT_Demo|vendor/Dhrystone_Demo|vendor/AXON_Demo|vendor/Test_Demo|vendor/IIC_DEMO|3rd-party|vendor/I2C_Demo|vendor/B91_USB_MIC_Demo|vendor/Debug_Demo|vendor/SKE_Demo|vendor/USB_MIC_Demo|vendor/B91_USB_Mouse_Demo|B91_Flash_Demo|vendor/src|vendor/B91_PLIC_irq_nested_Demo|vendor/Coremark_demo|vendor/GPIO_Demo|vendor/PLIC_Demo|vendor/USB_Speaker_Demo|vendor/Timer_Demo|vendor/RF_DEMO|vendor/BT_AutoTest_Demo|vendor/Base_Test_Demo|vendor/B91_PSPI_Demo|vendor/8258_USB_Speaker_Demo|vendor/UART1_DEMO|vendor/8258_USB_MIC_Demo|vendor/USB_Demo|vendor/N22_Test_Demo|vendor/VCD_Demo|vendor/DUT_Test_Demo|vendor/D25_Enable_N22_Demo|vendor/B91_USB_Speaker_Demo|usbstd|vendor/HTOL_Demo|vendor/LPC_Demo|vendor/NPE_Demo|vendor/EMI_Demo|vendor/DUT_Test|vendor/PM_DEMO|vendor/Freertos_Demo|tools|vendor/PSPI_Demo|vendor/STimer_Demo|vendor/PM_Demo|vendor/USB_Mouse_Demo|vendor/PWM_DEMO|vendor/EMI_BQB_Demo|vendor/PSRAM_Demo|vendor/MDEC_Demo|vendor/BT_EMI_Demo|vendor/B91_SPI_Demo|alg_test_demo|vendor/PWM_Demo|vendor/Auto_Test_Demo|vendor/DebugPrint_Demo" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.687736332">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.687736332" moduleId="org.eclipse.cdt.core.settings" name="ESB_PRX">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ConfigName}" buildArtefactType="nds.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=nds.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.687736332" name="ESB_PRX" parent="config.nds.base">
+					<folderInfo id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.687736332." name="/" resourcePath="">
+						<toolChain id="nds.nds32le-elf-mculib-v5f.base.43431256" name="nds32le-elf-mculib-v5f" superClass="nds.nds32le-elf-mculib-v5f.base">
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU.1529212789" name="CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU.1110604398" name="LIST_CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE.1519721102" name="CORE" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH.239304249" name="ARCH" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS.1721947174" name="ISA_REDUCE_REGS" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET.1608960263" name="TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN.324216142" name="ENDIAN" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT.1509859409" name="LIB_C_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT.535456803" name="LIB_CPP_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET.702090192" name="RSE_TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET" value="rse://LOCALHOST/~target/ADP-AE350-D25F-EAGLE-0106" valueType="string"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT.845200120" name="RSE_CONNECT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT" value="ICE" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" id="target.nds.platform.base.v5.770962696" name="Debug Platform" osList="all" superClass="target.nds.platform.base.v5"/>
+							<builder arguments="-j${NUMBER_OF_PROCESSORS}" buildPath="${workspace_loc:/Eagle_Driver_Demo}/Base_Test_DEMO" command="make" id="target.nds.builder.base.v5.1440439202" keepEnvironmentInBuildfile="false" name="Andes Make Builder" superClass="target.nds.builder.base.v5"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.archiver.base.1609995993" name="Andes Archiver" superClass="tool.nds32le-elf-mculib-v5f.archiver.base"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.compiler.base.1677789292" name="Andes C++ Compiler" superClass="tool.nds32le-elf-mculib-v5f.cpp.compiler.base">
+								<option id="nds.cpp.compiler.option.debugging.level.1229543309" name="Debug Level" superClass="nds.cpp.compiler.option.debugging.level" value="nds.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="nds.cpp.compiler.option.include.paths.1385515331" name="Include paths (-I)" superClass="nds.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/bsp/ae350}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/bsp/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/demo}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/bsp}&quot;"/>
+								</option>
+								<option id="nds.cpp.compiler.option.optimization.removesections.function.295105392" name="Remove unused function sections (-ffunction-sections)" superClass="nds.cpp.compiler.option.optimization.removesections.function" value="true" valueType="boolean"/>
+								<option id="nds.cpp.compiler.option.optimization.removesections.data.1217943345" name="Remove unused data sections (-fdata-sections)" superClass="nds.cpp.compiler.option.optimization.removesections.data" value="true" valueType="boolean"/>
+								<option id="nds.cpp.compiler.option.other.other.452349581" name="Other flags" superClass="nds.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing " valueType="string"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.linker.base.503473301" name="Andes C++ Linker" superClass="tool.nds32le-elf-mculib-v5f.cpp.linker.base">
+								<option defaultValue="-O0" id="nds.cpp.link.option.optimization.level.1621901363" name="Optimization Level" superClass="nds.cpp.link.option.optimization.level" value="-Og" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v5f.cpp.link.option.noshared.base.2024791499" name="No shared libraries (-static)" superClass="nds32le-elf-mculib-v5f.cpp.link.option.noshared.base" valueType="boolean"/>
+								<option id="nds.cpp.link.option.nostart.1856960193" name="Do not use standard start files (-nostartfiles)" superClass="nds.cpp.link.option.nostart" value="true" valueType="boolean"/>
+								<option id="nds.cpp.link.option.libs.1987457492" name="Libraries (-l)" superClass="nds.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="stdc++"/>
+								</option>
+								<option id="nds.cpp.linker.option.cmodel.642475923" name="Code Model" superClass="nds.cpp.linker.option.cmodel" value="-mcmodel=medium" valueType="string"/>
+								<option id="nds.cpp.link.option.removesections.1378713584" name="Remove unused sections (-ffunction-sections or -fdata-sections)" superClass="nds.cpp.link.option.removesections" value="true" valueType="boolean"/>
+								<option id="nds.cpp.link.option.virtualhosting.1493772012" name="Virtual Hosting (-mvh)" superClass="nds.cpp.link.option.virtualhosting" value="false" valueType="boolean"/>
+							</tool>
+							<tool command="$(CROSS_COMPILE)gcc" id="tool.nds32le-elf-mculib-v5f.c.compiler.base.584537784" name="Andes C Compiler" superClass="tool.nds32le-elf-mculib-v5f.c.compiler.base">
+								<option id="nds.c.compiler.option.debugging.level.125323194" name="Debug Level" superClass="nds.c.compiler.option.debugging.level" value="nds.c.debugging.level.max" valueType="enumerated"/>
+								<option id="nds32le-elf-mculib-v5f.c.compiler.option.optimization.level.base.436956534" name="Optimization Level" superClass="nds32le-elf-mculib-v5f.c.compiler.option.optimization.level.base" value="nds.c.optimization.level.more" valueType="enumerated"/>
+								<option id="nds.c.compiler.option.optimization.removesections.function.1989047743" name="Remove unused function sections (-ffunction-sections)" superClass="nds.c.compiler.option.optimization.removesections.function" value="true" valueType="boolean"/>
+								<option id="nds.c.compiler.option.optimization.removesections.data.830475663" name="Remove unused data sections (-fdata-sections)" superClass="nds.c.compiler.option.optimization.removesections.data" value="true" valueType="boolean"/>
+								<option id="nds.c.compiler.option.misc.other.176474195" name="Other flags" superClass="nds.c.compiler.option.misc.other" value="-mext-dsp -mabi=ilp32f  -c -fmessage-length=0  -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -Wno-nonnull-compare -Wall -Wextra -Wshadow  -Werror -std=c99 -Wno-gnu-zero-variadic-macro-arguments" valueType="string"/>
+								<option id="nds.c.compiler.option.optimization.lto.1321686863" name="Link Time Optimization (-flto)" superClass="nds.c.compiler.option.optimization.lto" value="true" valueType="boolean"/>
+								<option id="nds.c.compiler.option.cmodel.42860795" name="Code Model" superClass="nds.c.compiler.option.cmodel" value="nds.c.compiler.option.cmodel.medium" valueType="enumerated"/>
+								<option id="nds.c.compiler.option.preprocessor.def.symbols.1612616383" name="Defined symbols (-D)" superClass="nds.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="MCU_STARTUP_FLASH=1"/>
+									<listOptionValue builtIn="false" value="MCU_CORE_B91=1"/>
+								</option>
+								<option id="nds.c.compiler.option.optimization.flags.1422391295" name="Other optimization flags" superClass="nds.c.compiler.option.optimization.flags" value="-fpack-struct -fshort-enums -fno-jump-tables" valueType="string"/>
+								<option id="nds.c.compiler.option.include.paths.1329110444" name="Include paths (-I)" superClass="nds.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/esb}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common/flash}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common/calibration}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/vendor/common/common}&quot;"/>
+								</option>
+								<option id="nds.c.compiler.option.misc.use-cc.toolchain.1117990434" name="Compiler to use" superClass="nds.c.compiler.option.misc.use-cc.toolchain" value="nds.c.compiler.option.misc.use-cc.gcc" valueType="enumerated"/>
+								<inputType id="tool.nds.c.compiler.input.865929760" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool command="$(CROSS_COMPILE)gcc" id="tool.nds32le-elf-mculib-v5f.c.linker.base.1979657263" name="Andes C Linker" superClass="tool.nds32le-elf-mculib-v5f.c.linker.base">
+								<option defaultValue="-O0" id="nds.c.link.option.optimization.level.1592090494" name="Optimization Level" superClass="nds.c.link.option.optimization.level" value="-O2" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v5f.c.link.option.noshared.base.665261211" name="No shared libraries (-static)" superClass="nds32le-elf-mculib-v5f.c.link.option.noshared.base" valueType="boolean"/>
+								<option id="nds.c.link.option.nostart.173898312" name="Do not use standard start files (-nostartfiles)" superClass="nds.c.link.option.nostart" value="true" valueType="boolean"/>
+								<option defaultValue="" id="nds.c.link.option.ldscript.1807500740" name="Linker Script (-T)" superClass="nds.c.link.option.ldscript" value="../link/flash_boot.link" valueType="string"/>
+								<option id="nds.c.link.option.removesections.1117914490" name="Remove unused sections (-ffunction-sections or -fdata-sections)" superClass="nds.c.link.option.removesections" value="true" valueType="boolean"/>
+								<option id="nds.c.link.option.virtualhosting.761613060" name="Virtual Hosting (-mvh)" superClass="nds.c.link.option.virtualhosting" value="false" valueType="boolean"/>
+								<option id="nds.c.link.option.ldflags.776505436" name="Linker flags" superClass="nds.c.link.option.ldflags" value=" " valueType="string"/>
+								<option id="nds.c.linker.option.cmodel.829340640" name="Code Model" superClass="nds.c.linker.option.cmodel" value="-mcmodel=medium" valueType="string"/>
+								<option id="nds.c.link.option.LTO.1896388139" name="Link Time Optimization (-flto)" superClass="nds.c.link.option.LTO" value="true" valueType="boolean"/>
+								<option id="nds.c.link.option.other.duplacitecompiler.1076038693" name="DuplaciteComplierOption" superClass="nds.c.link.option.other.duplacitecompiler" value="-fpack-struct -fshort-enums -fno-jump-tables -g3 -mcpu=d25f -ffunction-sections -fdata-sections -mext-dsp -mabi=ilp32f -fmessage-length=0 -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -Wno-gnu-zero-variadic-macro-arguments " valueType="string"/>
+								<option id="nds.c.link.option.libs.278732043" name="Libraries (-l)" superClass="nds.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="driver"/>
+									<listOptionValue builtIn="false" value="esb"/>
+									<listOptionValue builtIn="false" value="axon_driver_lib"/>
+								</option>
+								<option id="nds.c.link.option.paths.1417047259" name="Library search path (-L)" superClass="nds.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/drivers/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/esb}&quot;"/>
+								</option>
+								<inputType id="tool.nds.c.linker.input.77312649" superClass="tool.nds.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.assembler.base.1869687452" name="Andes Assembler" superClass="tool.nds32le-elf-mculib-v5f.assembler.base">
+								<option defaultValue="-g" id="nds.both.asm.option.flags.1026537110" name="Assembler flags" superClass="nds.both.asm.option.flags" valueType="string"/>
+								<option id="nds.both.asm.option.include.paths.1055730332" name="Include paths (-I)" superClass="nds.both.asm.option.include.paths"/>
+								<inputType id="tool.nds.assembler.input.1571102383" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.nm.base.1734032162" name="NM (symbol listing)" superClass="tool.nds32le-elf-mculib-v5f.nm.base"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.readelf.base.56286445" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-mculib-v5f.readelf.base"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.objdump.base.677317509" name="Objdump (disassembly)" superClass="tool.nds32le-elf-mculib-v5f.objdump.base">
+								<option id="nds.objdump.option.disable.917443353" name="Disable. (Do not auto-generate output file.)" superClass="nds.objdump.option.disable" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.objcopy.base.1557399028" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-mculib-v5f.objcopy.base">
+								<option id="nds.objcopy.option.disable.1991083698" name="Disable. (Do not auto-generate output file.)" superClass="nds.objcopy.option.disable" value="false" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.size.base.188625128" name="Size (section size listing)" superClass="tool.nds32le-elf-mculib-v5f.size.base"/>
+							<tool command="$(ANDESIGHT_ROOT)/utils/nds_ldsag --version=v5" id="tool.nds32le-elf-mculib-v5f.ldsag.base.1858212237" name="LdSaG Tool" superClass="tool.nds32le-elf-mculib-v5f.ldsag.base">
+								<option defaultValue="$(ANDESIGHT_ROOT)/utils/nds32_template_v5.txt" id="nds.ldsag.option.sagtemplate.968825780" name="Linker script template" superClass="nds.ldsag.option.sagtemplate" value="../boot.link" valueType="string"/>
+								<option id="nds.ldsag.option.sagscript.92372574" name="SaG file" superClass="nds.ldsag.option.sagscript" value="../ae350-xip.sag" valueType="string"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.687736332.tools" name="/" resourcePath="tools">
+						<toolChain id="nds.nds32le-elf-mculib-v5f.base.1916779656" name="nds32le-elf-mculib-v5f" superClass="nds.nds32le-elf-mculib-v5f.base" unusedChildren="">
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU.1682401090.356743481.1159546264" name="CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CPU.1682401090"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU.297056722.292231812.1069750227" name="LIST_CPU" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIST_CPU.297056722"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE.271198914.1716872884.519577168" name="CORE" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_CORE.271198914"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH.1043421472.1972990180.238315426" name="ARCH" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ARCH.1043421472"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS.631489959.1186178979.361426655" name="ISA_REDUCE_REGS" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ISA_REDUCE_REGS.631489959"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET.1940747853.643489039.469777504" name="TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_TARGET.1940747853"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN.2119767841.41383845.1178394090" name="ENDIAN" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_ENDIAN.2119767841"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT.189159750.2144703268.1841867523" name="LIB_C_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_C_DEFAULT.189159750"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT.1477121159.1688408564.494165953" name="LIB_CPP_DEFAULT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.NDS_LIB_CPP_DEFAULT.1477121159"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET.876545470.93348153.227475641" name="RSE_TARGET" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_TARGET.876545470"/>
+							<option id="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT.1575858312.499881965.398812841" name="RSE_CONNECT" superClass="nds32le-elf-mculib-v5f.managedbuild.option.toolchain.RSE_CONNECT.1575858312"/>
+							<targetPlatform archList="all" binaryParser="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" id="target.nds.platform.base.v5.923805800" name="Debug Platform" osList="all" superClass="target.nds.platform.base.v5"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.archiver.base.775120074" name="Andes Archiver" superClass="tool.nds32le-elf-mculib-v5f.archiver.base.1609995993"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.compiler.base.1740429666" name="Andes C++ Compiler" superClass="tool.nds32le-elf-mculib-v5f.cpp.compiler.base.1677789292"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.cpp.linker.base.1730936166" name="Andes C++ Linker" superClass="tool.nds32le-elf-mculib-v5f.cpp.linker.base.503473301"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.c.compiler.base.1299486697" name="Andes C Compiler" superClass="tool.nds32le-elf-mculib-v5f.c.compiler.base.584537784">
+								<inputType id="tool.nds.c.compiler.input.918492007" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.c.linker.base.796463561" name="Andes C Linker" superClass="tool.nds32le-elf-mculib-v5f.c.linker.base.1979657263"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.assembler.base.1103554999" name="Andes Assembler" superClass="tool.nds32le-elf-mculib-v5f.assembler.base.1869687452">
+								<inputType id="tool.nds.assembler.input.1805292752" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v5f.nm.base.1800838163" name="NM (symbol listing)" superClass="tool.nds32le-elf-mculib-v5f.nm.base.1734032162"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.readelf.base.794755404" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-mculib-v5f.readelf.base.56286445"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.objdump.base.1848598972" name="Objdump (disassembly)" superClass="tool.nds32le-elf-mculib-v5f.objdump.base.677317509"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.objcopy.base.1839079209" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-mculib-v5f.objcopy.base.1557399028"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.size.base.854000122" name="Size (section size listing)" superClass="tool.nds32le-elf-mculib-v5f.size.base.188625128"/>
+							<tool id="tool.nds32le-elf-mculib-v5f.ldsag.base.1016888107" name="LdSaG Tool" superClass="tool.nds32le-elf-mculib-v5f.ldsag.base.1858212237"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="vendor/esb_ptx|src/boot.c|vendor/PKE_Demo|vendor/SPI_Demo|vendor/TRNG_Demo|vendor/AUDIO_Demo|vendor/Flash_Demo|vendor/Swire_Demo|vendor/QDEC_Demo|vendor/UART0_DEMO|vendor/B91_Debug_Demo|vendor/B91_HSPI_Demo|vendor/ADC_Demo|vendor/Coremark_Demo|vendor/UART_DEMO|vendor/ALG_REG_Demo|vendor/HSPI_Demo|vendor/UART_Demo|vendor/s7816_Demo|vendor/AES_Demo|vendor/DUT_Demo|vendor/Dhrystone_Demo|vendor/AXON_Demo|vendor/Test_Demo|vendor/IIC_DEMO|3rd-party|vendor/I2C_Demo|vendor/B91_USB_MIC_Demo|vendor/Debug_Demo|vendor/SKE_Demo|vendor/USB_MIC_Demo|vendor/B91_USB_Mouse_Demo|B91_Flash_Demo|vendor/src|vendor/B91_PLIC_irq_nested_Demo|vendor/Coremark_demo|vendor/GPIO_Demo|vendor/PLIC_Demo|vendor/USB_Speaker_Demo|vendor/Timer_Demo|vendor/RF_DEMO|vendor/BT_AutoTest_Demo|vendor/Base_Test_Demo|vendor/B91_PSPI_Demo|vendor/8258_USB_Speaker_Demo|vendor/UART1_DEMO|vendor/8258_USB_MIC_Demo|vendor/USB_Demo|vendor/N22_Test_Demo|vendor/VCD_Demo|vendor/DUT_Test_Demo|vendor/D25_Enable_N22_Demo|vendor/B91_USB_Speaker_Demo|usbstd|vendor/HTOL_Demo|vendor/LPC_Demo|vendor/NPE_Demo|vendor/EMI_Demo|vendor/DUT_Test|vendor/PM_DEMO|vendor/Freertos_Demo|tools|vendor/ESB_PTX|vendor/PSPI_Demo|vendor/STimer_Demo|vendor/PM_Demo|vendor/USB_Mouse_Demo|vendor/PWM_DEMO|vendor/EMI_BQB_Demo|vendor/PSRAM_Demo|vendor/MDEC_Demo|vendor/BT_EMI_Demo|vendor/B91_SPI_Demo|alg_test_demo|vendor/PWM_Demo|vendor/Auto_Test_Demo|vendor/DebugPrint_Demo" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="demo-printf-V5.target.nds32le-elf-mculib-v5.exe.629699238" name="Andes Executable"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="B91_DHRYSTONE">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="AXON_Demo"/>
+		<configuration configurationName="PWM_DEMO"/>
+		<configuration configurationName="B91_PM_Demo"/>
+		<configuration configurationName="DUT_Test_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_NPE_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="TIMER_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="AUDIO_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="I2C_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="ESB_PTX">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_MDEC_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_ADC_Demo"/>
+		<configuration configurationName="B91_UART_Demo"/>
+		<configuration configurationName="PLIC_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="PWM_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Auto_Test_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="ALG_REG_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_Flash_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_PKE_Demo"/>
+		<configuration configurationName="B91_Test_Demo"/>
+		<configuration configurationName="B91_PM_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="DUT_Demo"/>
+		<configuration configurationName="EMI_BQB_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_RF_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="COREMARK">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="SPI_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_AES_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_UART_DEMO"/>
+		<configuration configurationName="VCD_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_AUDIO_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="s7816_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_STIMER_Demo"/>
+		<configuration configurationName="B91_RF_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_Debug_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="UART0_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_USB_Demo"/>
+		<configuration configurationName="Multiple configurations">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="ESB_PRX">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="NPE_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="GPIO_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_BT_AutoTest_Demo"/>
+		<configuration configurationName="B91_USB_Speaker_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_Base_Test_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="ADC_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_USB_Mouse_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_ALG_REG_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_LPC_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="TIMER_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="AutoTest_Demo"/>
+		<configuration configurationName="Test_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="DUT_Test"/>
+		<configuration configurationName="LPC_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_EMI_BQB_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="GPIO_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="BT_EMI_Demo"/>
+		<configuration configurationName="UART_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Debug_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="DHRYSTONE">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_I2C_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_TIMER_Demo"/>
+		<configuration configurationName="B91_HSPI_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_PLIC_Demo"/>
+		<configuration configurationName="B91_UART0_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="BT_AutoTest_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="PKE_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_SPI_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Flash_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="USB_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Make_lib"/>
+		<configuration configurationName="HTOL_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_PSPI_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Base_Test_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="RF_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="STIMER_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="AES_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_TIMER_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_UART1_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_VCD_Demo"/>
+		<configuration configurationName="B91_PWM_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_EMI_Demo"/>
+		<configuration configurationName="MDEC_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_COREMARK"/>
+		<configuration configurationName="B91_USB_MIC_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="TRNG_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="PM_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Swire_Demo"/>
+		<configuration configurationName="B91_DUT_Test_Demo"/>
+		<configuration configurationName="B91_VCD_DEMO"/>
+		<configuration configurationName="B91_GPIO_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_PWM_Demo"/>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="Freertos_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="UART_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_HTOL_Demo"/>
+		<configuration configurationName="B91_Auto_Test_Demo"/>
+		<configuration configurationName="B91_Make_lib"/>
+		<configuration configurationName="B91_s7816_Demo">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="IIC_DEMO"/>
+		<configuration configurationName="B91_DEBUG_PRINT">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+		<configuration configurationName="B91_TRNG_Demo"/>
+		<configuration configurationName="PSRAM_DEMO">
+			<resource resourceType="PROJECT" workspacePath="/B91_Driver_Demo"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1287809320;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1287809320.;tool.nds32le-elf-mculib-v5f.c.compiler.base.814325112;tool.nds.c.compiler.input.1439371971">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.255864339.593869345;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.255864339.593869345.;tool.nds32le-elf-mculib-v5f.c.compiler.base.244302466;tool.nds.c.compiler.input.1405729190">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.876988040;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.876988040.;tool.nds32le-elf-mculib-v5f.c.compiler.base.262867887;tool.nds.c.compiler.input.217420551">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.608228414;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.608228414.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1586821707;tool.nds.c.compiler.input.1951486011">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1812718135;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1812718135.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1411417873;tool.nds.c.compiler.input.146982024">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1050297036;tool.nds.c.compiler.input.1738967519">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979.1146699834;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979.1146699834.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1231420053;tool.nds.c.compiler.input.1653778397">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979.129917995;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979.129917995.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1401992432;tool.nds.c.compiler.input.1407798974">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.;tool.nds32le-elf-mculib-v5f.c.compiler.base.787243219;tool.nds.c.compiler.input.260548021">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.882223911;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.882223911.;tool.nds32le-elf-mculib-v5f.c.compiler.base.934058837;tool.nds.c.compiler.input.1429548202">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1986706254.329002852;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1986706254.329002852.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1075468781;tool.nds.c.compiler.input.281729781">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1671662551;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1671662551.;tool.nds32le-elf-mculib-v5d.c.compiler.base.742526823;tool.nds.c.compiler.input.1395204684">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.594266050;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.594266050.;tool.nds32le-elf-mculib-v5.c.compiler.base.1313797387;tool.nds.c.compiler.input.102340701">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1518596258;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1518596258.;tool.nds32le-elf-mculib-v5.c.compiler.base.465888340;tool.nds.c.compiler.input.289146583">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1327417571;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1327417571.;tool.nds32le-elf-mculib-v5f.c.compiler.base.67014363;tool.nds.c.compiler.input.1752662211">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1143607377;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1143607377.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1499655249;tool.nds.c.compiler.input.1435871814">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1720866470;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1720866470.;tool.nds32le-elf-mculib-v5f.c.compiler.base.903952851;tool.nds.c.compiler.input.1036399573">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.834240011;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.834240011.;tool.nds32le-elf-mculib-v5f.c.compiler.base.477633054;tool.nds.c.compiler.input.1208889807">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.1943883724;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.1943883724.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1473010821;tool.nds.c.compiler.input.1622073240">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1619659045;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1619659045.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1109807130;tool.nds.c.compiler.input.973824417">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1175532269;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1175532269.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1073754775;tool.nds.c.compiler.input.1252472750">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1791727530;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1791727530.;tool.nds32le-elf-mculib-v5f.c.compiler.base.972647701;tool.nds.c.compiler.input.989630719">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.687736332;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.687736332.;tool.nds32le-elf-mculib-v5f.c.compiler.base.584537784;tool.nds.c.compiler.input.865929760">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1947266950;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1947266950.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1543763909;tool.nds.c.compiler.input.766960392">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.release.1307062052;config.nds32le-elf-mculib-v5.exe.release.1307062052.;tool.nds32le-elf-mculib-v5.c.compiler.exe.release.823462875;tool.nds.c.compiler.input.1275702147">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.;tool.nds32le-elf-mculib-v5f.c.compiler.base.295079866;tool.nds.c.compiler.input.160909863">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1986706254;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1986706254.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1188477646;tool.nds.c.compiler.input.1496314266">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.340799122;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.340799122.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1794608057;tool.nds.c.compiler.input.608867465">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1332259550.1753050522;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1332259550.1753050522.;tool.nds32le-elf-mculib-v5f.c.compiler.base.2109354291;tool.nds.c.compiler.input.2044477235">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1775432420;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1775432420.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1604936364;tool.nds.c.compiler.input.772107142">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.450954281;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.450954281.;tool.nds32le-elf-mculib-v5f.c.compiler.base.2050506405;tool.nds.c.compiler.input.154965385">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.;tool.nds32le-elf-mculib-v5.c.compiler.base.1807B9196;tool.nds.c.compiler.input.310277736">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847;config.nds32le-elf-mculib-v5.exe.debug.28004847.;tool.nds32le-elf-mculib-v5.c.compiler.exe.debug.1236476430;tool.nds.c.compiler.input.1069150705">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1836983098;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1836983098.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1368800835;tool.nds.c.compiler.input.1992180315">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1332259550;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1332259550.;tool.nds32le-elf-mculib-v5.c.compiler.base.1596707624;tool.nds.c.compiler.input.565595557">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979.1646951558;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.984054979.1646951558.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1661921571;tool.nds.c.compiler.input.708078945">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.2141318542.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1576110312;tool.nds.c.compiler.input.1925638144">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1671662551.1015712691;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1671662551.1015712691.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1811658082;tool.nds.c.compiler.input.2140216859">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.383166182;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.383166182.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1616159301;tool.nds.c.compiler.input.836592668">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.255864339.789335444;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.255864339.789335444.;tool.nds32le-elf-mculib-v5f.c.compiler.base.276299008;tool.nds.c.compiler.input.768796674">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.255864339.593869345.1330941356;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.991521379.255864339.593869345.1330941356.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1892565987;tool.nds.c.compiler.input.1508322102">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1776329523;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.1776329523.;tool.nds32le-elf-mculib-v5f.c.compiler.base.610190085;tool.nds.c.compiler.input.669789042">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.;tool.nds32le-elf-mculib-v5.c.compiler.base.354113725;tool.nds.c.compiler.input.1556502911">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.345386074;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.345386074.;tool.nds32le-elf-mculib-v5f.c.compiler.base.30811022;tool.nds.c.compiler.input.1432106407">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1332259550;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.1332259550.;tool.nds32le-elf-mculib-v5f.c.compiler.base.102779910;tool.nds.c.compiler.input.1780441890">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.2096503878;config.nds32le-elf-mculib-v5.exe.debug.28004847.1438473168.105987010.2096503878.;tool.nds32le-elf-mculib-v5f.c.compiler.base.1405693832;tool.nds.c.compiler.input.95639801">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

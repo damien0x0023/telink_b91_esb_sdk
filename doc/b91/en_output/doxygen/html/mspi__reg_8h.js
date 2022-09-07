@@ -1,0 +1,26 @@
+var mspi__reg_8h =
+[
+    [ "reg_mspi_data", "mspi__reg_8h.html#ab63a6366f5a63ab623f02893133fce22", null ],
+    [ "reg_mspi_fm", "mspi__reg_8h.html#ac506cc41f88d60abc9bb840e90fd314a", null ],
+    [ "reg_mspi_status", "mspi__reg_8h.html#acac0f726f5fb4cd5d6e2d266df6305d9", null ],
+    [ "reg_mspi_fm1", "mspi__reg_8h.html#a20b86fa6d08a6944607d119f5f38bdf8", null ],
+    [ "reg_mspi_set_l", "mspi__reg_8h.html#a7ec5165ee4f2708e45479d0e5940395e", null ],
+    [ "reg_mspi_set_h", "mspi__reg_8h.html#a919acd07d0eaf083166392170259708f", null ],
+    [ "reg_mspi_cmd_ahb", "mspi__reg_8h.html#a3dd6d727ddf05f074b6bc54d9170ced1", null ],
+    [ "reg_mspi_fm_ahb", "mspi__reg_8h.html#a226fb392463d5584116ed52ea1c69091", null ],
+    [ "FLD_MSPI_RD_TRIG_EN", "mspi__reg_8h.html#a9334a5b9057f32da96db9b5c6a045d67a7c12c43a58b049966256393387d2340b", null ],
+    [ "FLD_MSPI_RD_MODE", "mspi__reg_8h.html#a9334a5b9057f32da96db9b5c6a045d67a23f69da2a9983c04e70e4f71e4540e05", null ],
+    [ "FLD_MSPI_DATA_LINE", "mspi__reg_8h.html#a9334a5b9057f32da96db9b5c6a045d67a4971cb50058a9d5b2a8e4697815208d7", null ],
+    [ "FLD_MSPI_CSN", "mspi__reg_8h.html#a9334a5b9057f32da96db9b5c6a045d67a914fd68db9d3cec0f242f9fdd13e10bd", null ],
+    [ "FLD_MSPI_BUSY", "mspi__reg_8h.html#a8628933cde20921c453a6d2607bdad62aea43605b29b9916c0a0a58b978039970", null ],
+    [ "FLD_MSPI_TIMEOUT_CNT", "mspi__reg_8h.html#ade9ca5088d171ad20b4c237f1c2d6260a7524505048ae451e215080786f8b8a33", null ],
+    [ "FLD_MSPI_CS2SCL_CNT", "mspi__reg_8h.html#ade9ca5088d171ad20b4c237f1c2d6260af555277d8afa0ae9044c7a88b3068f98", null ],
+    [ "FLD_MSPI_CS2CS_CNT", "mspi__reg_8h.html#ade9ca5088d171ad20b4c237f1c2d6260a5241e39078b9b3c8c50567f780a71d2b", null ],
+    [ "FLD_MSPI_MULTIBOOT_ADDR_OFFSET", "mspi__reg_8h.html#a9e93d8eae633734dfeb29e24a1f3a7c0a578e200fe87f86362ae558ad0fcf2b4d", null ],
+    [ "FLD_MSPI_PROGRAM_SPACE_SIZE", "mspi__reg_8h.html#aeb8e1c282570d629a6b603a94a4650d6a1e7d4f0f7aa7f658e99f91f8aab93658", null ],
+    [ "FLD_MSPI_RD_CMD", "mspi__reg_8h.html#a109bfaad92bd6d348dab484aec11edbbaa045ddac334d6ed55a571468a5915507", null ],
+    [ "FLD_MSPI_DUMMY", "mspi__reg_8h.html#a550cb4231d535863c55643bbd2d3c6baae0c9ce9963237527fea80edc6f7ec832", null ],
+    [ "FLD_MSPI_DAT_LINE", "mspi__reg_8h.html#a550cb4231d535863c55643bbd2d3c6baa8e25323ed910712300aee3e2b12b151a", null ],
+    [ "FLD_MSPI_ADDR_LINE", "mspi__reg_8h.html#a550cb4231d535863c55643bbd2d3c6baa99f8b6fc2c2aa6400883b6f3d3002be1", null ],
+    [ "FLD_MSPI_CMD_LINE", "mspi__reg_8h.html#a550cb4231d535863c55643bbd2d3c6baa2de59047f24ea9fd38af5a5e0d6b042d", null ]
+];

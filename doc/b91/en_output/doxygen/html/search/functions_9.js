@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['i2c_5fclr_5ffifo',['i2c_clr_fifo',['../i2c_8h.html#a15a5ac76c8ec1879762668100c8c1a65',1,'i2c.h']]],
+  ['i2c_5fclr_5firq_5fmask',['i2c_clr_irq_mask',['../i2c_8h.html#a100293e76ba88502aee2025e7833a90e',1,'i2c.h']]],
+  ['i2c_5fget_5firq_5fstatus',['i2c_get_irq_status',['../i2c_8h.html#a020272d5f3198bbd76df42431427025d',1,'i2c.h']]],
+  ['i2c_5fget_5frx_5fbuf_5fcnt',['i2c_get_rx_buf_cnt',['../i2c_8h.html#a2313c2ce416d4d4c110c9e8cba7d5d1a',1,'i2c.h']]],
+  ['i2c_5fget_5ftx_5fbuf_5fcnt',['i2c_get_tx_buf_cnt',['../i2c_8h.html#af0638016c0f610550e49b8cb1c69a1be',1,'i2c.h']]],
+  ['i2c_5fmaster_5fbusy',['i2c_master_busy',['../i2c_8h.html#a5e5c85cf43cf90dae0c9510ce3730ad5',1,'i2c.h']]],
+  ['i2c_5fmaster_5finit',['i2c_master_init',['../i2c_8h.html#ab8d4fe53499aec2cf2e72aac2c3b835d',1,'i2c.h']]],
+  ['i2c_5fmaster_5fread',['i2c_master_read',['../i2c_8h.html#a921c4f8297d22193415663a7e0212dfe',1,'i2c.h']]],
+  ['i2c_5fmaster_5fread_5fdma',['i2c_master_read_dma',['../i2c_8h.html#afb9fec27cd78e3b8cd43f607e03cfeb3',1,'i2c.h']]],
+  ['i2c_5fmaster_5fsend_5fstop',['i2c_master_send_stop',['../i2c_8h.html#ae6bd960bd6d4f12fba2342dda6c758fb',1,'i2c.h']]],
+  ['i2c_5fmaster_5fwrite',['i2c_master_write',['../i2c_8h.html#adf4ae7e810c52438e34ead7ff8ac0685',1,'i2c.h']]],
+  ['i2c_5fmaster_5fwrite_5fdma',['i2c_master_write_dma',['../i2c_8h.html#ae463e5d1673f61687f061f9070db95ac',1,'i2c.h']]],
+  ['i2c_5frx_5firq_5ftrig_5fcnt',['i2c_rx_irq_trig_cnt',['../i2c_8h.html#ab2908160418e14d0cf6819305d3e946a',1,'i2c.h']]],
+  ['i2c_5fset_5firq_5fmask',['i2c_set_irq_mask',['../i2c_8h.html#aaa1fbaa0c0c9a91e8f527501113baf0d',1,'i2c.h']]],
+  ['i2c_5fset_5fmaster_5fclk',['i2c_set_master_clk',['../i2c_8h.html#a63b924f2eaaeffc991a631aa2531e4f7',1,'i2c.h']]],
+  ['i2c_5fset_5fpin',['i2c_set_pin',['../i2c_8h.html#a4c1893ea10495ee215e7794dfed20f7f',1,'i2c.h']]],
+  ['i2c_5fset_5frx_5fdma_5fconfig',['i2c_set_rx_dma_config',['../i2c_8h.html#a857a89257074b3071ffe2728b14ec761',1,'i2c.h']]],
+  ['i2c_5fset_5ftx_5fdma_5fconfig',['i2c_set_tx_dma_config',['../i2c_8h.html#a93a975dd8a87dcdc915fb8230ec7d964',1,'i2c.h']]],
+  ['i2c_5fslave_5finit',['i2c_slave_init',['../i2c_8h.html#a882256a77fd339ec77f0a7231495c968',1,'i2c.h']]],
+  ['i2c_5fslave_5fread',['i2c_slave_read',['../i2c_8h.html#a311bd0ee3049d4482c694512509507e6',1,'i2c.h']]],
+  ['i2c_5fslave_5fread_5fdma',['i2c_slave_read_dma',['../i2c_8h.html#aecca0b09457ae8aafa4bc756d9c0181b',1,'i2c.h']]],
+  ['i2c_5fslave_5fwrite',['i2c_slave_write',['../i2c_8h.html#a6635675a58aeac0c7e9ea70bca34007c',1,'i2c.h']]],
+  ['i2c_5fslave_5fwrite_5fdma',['i2c_slave_write_dma',['../i2c_8h.html#a056fcda03b04d057dd1b30bb826ff145',1,'i2c.h']]]
+];

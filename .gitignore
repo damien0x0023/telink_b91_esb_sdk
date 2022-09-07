@@ -1,0 +1,11 @@
+*.pyc
+*.bin
+*.lst
+*.elf
+*.map
+*.dblite
+cconfig.h
+build
+*.swo
+*.swn
+*.swp
